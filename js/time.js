@@ -2,6 +2,10 @@ let currentZone = localStorage.getItem("zone");
 let mex = col = bra = arg = 0;
 let dstMex = true;
 
+if(currentZone == null){
+    currentZone = "mex";
+}
+
 // Función de reloj
 function startTime() {
     let today = new Date();
