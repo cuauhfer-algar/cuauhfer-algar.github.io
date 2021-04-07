@@ -1,0 +1,170 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 30px;
+}
+
+header h1{
+    position: relative;
+    top:-10px;
+    width: 25%;
+    text-align: center;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+header h3{
+    width: 50%;
+    text-align: center;
+    margin-right: 20%;
+}
+
+header .toggler{
+    width: 5%;
+}
+
+.logo{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    margin: 10px;
+}
+
+.logo span{
+    font-size: 24px;
+    position: absolute;
+    bottom: -75%;
+    left: -25%;
+}
+
+.triangle{
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-radius: 3px;
+    position: absolute;
+}
+
+.triangle-green{
+    border-left: 20px solid rgba(7, 150, 45, 1);
+    left: 0;
+    bottom: 0;
+}
+
+.triangle-blue{
+    border-left: 20px solid rgba(0, 166, 226, 1);
+    left: 0;
+    top:0;
+}
+
+.triangle-yellow{
+    border-left: 20px solid rgba(245, 206, 5, 1);
+    right: 0;
+    top: 30%;
+}
+
+main{
+    width: 80%;
+    min-height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+aside{
+    width: 20%;
+    min-height: 80vh;
+}
+
+aside .timer{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+aside .clock{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+aside .current{
+    font-weight: bold;
+    font-size: 36px;
+    text-shadow: rgba(0, 100, 162, 1) 2px 2px;
+}
+
+aside .flag{
+    width: 75px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+aside .zone{
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+main .access{
+    width: 30%;
+    margin: 25px 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: var(--site-contrast);
+    min-height: 350px;
+}
+
+main .access .cover{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main .access p{
+    width: 100%;
+    text-align: justify;
+    font-size: 14px;
+    color: var(--site-textMuted);
+    padding: 10px;
+}
+
+main .access h5{
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+}
+
+main .access .btn{
+    width: 40%;
+    margin: 10px 30%;
+}
+
+main .access .cover h1{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}

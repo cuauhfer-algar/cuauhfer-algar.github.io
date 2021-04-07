@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algar Tech | Accesos</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link id="indexStyles" rel="stylesheet" href="css/index.css">
+</head>
+
+<body onload="startTime()">
+    <header class="primary-bg">
+        <h1>Algar
+            <div class="logo">
+                <div class="triangle triangle-blue"></div>
+                <div class="triangle triangle-green"></div>
+                <div class="triangle triangle-yellow"></div>
+                <span>Tech</span>
+            </div>
+        </h1>
+        <h3>
+            Accesos
+        </h3>
+        <div class="toggler">
+            <label class="switch">
+                <input id="toogleBtn" type="checkbox" onclick="toogleDarkMode()">
+                <span class="slider round"></span>
+            </label>
+            <div class="icons">                
+                <i class="icon fas fa-sun"></i>
+                <i class="icon far fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="access">
+            <div class="cover" style="background-image: linear-gradient(to bottom, rgba(0, 100, 162, 1), rgba(0, 100, 162, 0.25)), url('img/1.jpg');">
+                <h1>Algar
+                    <div class="logo">
+                        <div class="triangle triangle-blue"></div>
+                        <div class="triangle triangle-green"></div>
+                        <div class="triangle triangle-yellow"></div>
+                        <span>Tech</span>
+                    </div>
+                </h1>
+            </div>
+            <h5>Portal TH</h5>
+            <p>
+                Marcado de puntos, horas extra, control de jornada, etc.
+            </p>
+            <a target="_blank" href="https://portalth.algarnet.com.br/"><button class="btn">Ir a</button></a>
+        </div>
+
+        <div class="access">
+            <div class="cover" style="background-image: linear-gradient(to bottom, rgba(0, 100, 162, 1), rgba(0, 100, 162, 0.25)), url('img/2.png');">
+                <h1>Algar
+                    <div class="logo">
+                        <div class="triangle triangle-blue"></div>
+                        <div class="triangle triangle-green"></div>
+                        <div class="triangle triangle-yellow"></div>
+                        <span>Tech</span>
+                    </div>
+                </h1>
+            </div>
+            <h5>Service Desk</h5>
+            <p>
+                Liberación de accesos, problemas con el equipo de computo, etc.
+            </p>
+            <a target="_blank" href="http://servicedesk.algartech.com/"><button class="btn">Ir a</button></a>
+        </div>
+
+        <div class="access">
+            <div class="cover" style="background-image: linear-gradient(to bottom, rgba(0, 100, 162, 1), rgba(0, 100, 162, 0.25)), url('img/3.jfif');">
+                <h1>Algar
+                    <div class="logo">
+                        <div class="triangle triangle-blue"></div>
+                        <div class="triangle triangle-green"></div>
+                        <div class="triangle triangle-yellow"></div>
+                        <span>Tech</span>
+                    </div>
+                </h1>
+            </div>
+            <h5>CSC Atente</h5>
+            <p>
+                Atención de plan de salud, vales de transporte, vales de despensa, y asuntos relacionados a lo financiero.
+            </p>
+            <a target="_blank" href="https://cscatende.algarnet.com.br/"><button class="btn">Ir a</button></a>
+        </div>
+
+        <div class="access">
+            <div class="cover" style="background-image: linear-gradient(to bottom, rgba(0, 100, 162, 1), rgba(0, 100, 162, 0.25)), url('img/4.jfif');">
+                <h1>Algar
+                    <div class="logo">
+                        <div class="triangle triangle-blue"></div>
+                        <div class="triangle triangle-green"></div>
+                        <div class="triangle triangle-yellow"></div>
+                        <span>Tech</span>
+                    </div>
+                </h1>
+            </div>
+            <h5>Kanban</h5>
+            <p>
+                Organización de demandas, tareas y entrega.
+            </p>
+            <a target="_blank" href="https://login.swiftkanban.com/"><button class="btn">Ir a</button></a>
+        </div>
+
+        <div class="access">
+            <div class="cover" style="background-image: linear-gradient(to bottom, rgba(0, 100, 162, 1), rgba(0, 100, 162, 0.25)), url('img/5.jfif');">
+                <h1>Algar
+                    <div class="logo">
+                        <div class="triangle triangle-blue"></div>
+                        <div class="triangle triangle-green"></div>
+                        <div class="triangle triangle-yellow"></div>
+                        <span>Tech</span>
+                    </div>
+                </h1>
+            </div>
+            <h5>Workplace</h5>
+            <p>
+                Comunicación interna entre asociados.
+            </p>
+            <a target="_blank" href="https://algar.workplace.com/"><button class="btn">Ir a</button></a>
+        </div>
+
+        <div class="access">
+            <div class="cover" style="background-image: linear-gradient(to bottom, rgba(0, 100, 162, 1), rgba(0, 100, 162, 0.25)), url('img/6.jfif');">
+                <h1>Algar
+                    <div class="logo">
+                        <div class="triangle triangle-blue"></div>
+                        <div class="triangle triangle-green"></div>
+                        <div class="triangle triangle-yellow"></div>
+                        <span>Tech</span>
+                    </div>
+                </h1>
+            </div>
+            <h5>Folha Sinergy</h5>
+            <p>
+                Visualización de nóminas, festivos, etc.
+            </p>
+            <a target="_blank" href="http://algar.folhasinergyrh.com.br"><button class="btn">Ir a</button></a>
+        </div>
+
+        <div class="access">
+            <div class="cover" style="background-image: linear-gradient(to bottom, rgba(0, 100, 162, 1), rgba(0, 100, 162, 0.25)), url('img/7.jfif');">
+                <h1>Algar
+                    <div class="logo">
+                        <div class="triangle triangle-blue"></div>
+                        <div class="triangle triangle-green"></div>
+                        <div class="triangle triangle-yellow"></div>
+                        <span>Tech</span>
+                    </div>
+                </h1>
+            </div>
+            <h5>Portal Sinergy</h5>
+            <p>
+                Información sobre su cargo, currículo y cursos que tendrá que realizar.
+            </p>
+            <a target="_blank" href="https://www.portalsinergyrh.com.br/"><button class="btn">Ir a</button></a>
+        </div>
+
+        <div class="access">
+            <div class="cover" style="background-image: linear-gradient(to bottom, rgba(0, 100, 162, 1), rgba(0, 100, 162, 0.25)), url('img/8.jfif');">
+                <h1>Algar
+                    <div class="logo">
+                        <div class="triangle triangle-blue"></div>
+                        <div class="triangle triangle-green"></div>
+                        <div class="triangle triangle-yellow"></div>
+                        <span>Tech</span>
+                    </div>
+                </h1>
+            </div>
+            <h5>Chat interno</h5>
+            <p>
+                Comunicación interna entre asociados.
+            </p>
+            <a target="_blank" href="https://chat.google.com"><button class="btn">Ir a</button></a>
+        </div>
+
+        <div class="access">
+            <div class="cover" style="background-image: linear-gradient(to bottom, rgba(0, 100, 162, 1), rgba(0, 100, 162, 0.25)), url('img/9.jfif');">
+                <h1>Algar
+                    <div class="logo">
+                        <div class="triangle triangle-blue"></div>
+                        <div class="triangle triangle-green"></div>
+                        <div class="triangle triangle-yellow"></div>
+                        <span>Tech</span>
+                    </div>
+                </h1>
+            </div>
+            <h5>Email</h5>
+            <p>
+                Comunicación entre asociados y clientes.
+            </p>
+            <a target="_blank" href="https://mail.google.com"><button class="btn">Ir a</button></a>
+        </div>
+    </main>
+
+    <aside>
+        <div class="timer">
+            <div class="flag" style="background-image: url('data:image/png;base64,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');"></div>
+            <div class="clock current" id="mex" onclick="setZone('mex')" title="Fijar como mi hora local"></div>
+            <span class="zone muted-text">Hora Guadalajara (UTC-6 <span id="mxVerano"></span> )</span>
+        </div>
+        <div class="timer">
+            <div class="flag" style="background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACFCAMAAAApQEceAAAAD1BMVEX80RbOESYAOJN+hFU0LniMNaeWAAAAcklEQVR4nO3PAQ2AQAwAsT3gX/O7IJelddAZAAAAAAAAAAAAAAAA4EfvEvMsIVIjUiNSI1IjUiNSI1IjUiNSI1IjUiNSI1IjUiNSsyfyLTFnCZEakRqRGpEakRqRGpEakRqRGpEakRqRGpEakRqRGpGaC3B3UUEnm3mhAAAAAElFTkSuQmCC');"></div>
+            <div class="clock" id="col" onclick="setZone('col')" title="Fijar como mi hora local"></div>
+            <span class="zone muted-text">Hora Bogotá (UTC-5)</span>
+        </div>
+        <div class="timer">
+            <div class="flag" style="background-image: url('data:image/png;base64,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');"></div>
+            <div class="clock" id="bra" onclick="setZone('bra')" title="Fijar como mi hora local"></div>
+            <span class="zone muted-text">Hora Brasilia (UTC-3)</span>
+        </div>
+        <div class="timer">
+            <div class="flag" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png');"></div>
+            <div class="clock" id="arg" onclick="setZone('arg')" title="Fijar como mi hora local"></div>
+            <span class="zone muted-text">Hora Buenos Aires (UTC-3)</span>
+        </div>
+    </aside>
+</body>
+
+<script src="js/darkMode.js"></script>
+<script src="js/time.js"></script>
+
+</html>
