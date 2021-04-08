@@ -89,6 +89,16 @@ aside{
     min-height: 80vh;
 }
 
+aside h3{
+    width: 100%;
+    text-align: center;
+}
+
+aside hr{
+    width: 90%;
+    margin: 0 5%;
+}
+
 aside .timer{
     display: flex;
     flex-flow: row wrap;
@@ -167,4 +177,120 @@ main .access .cover h1{
     justify-content: center;
     align-items: flex-end;
     color: white;
+}
+
+@media (max-width: 480px) {
+    header{
+        height: 15vh;
+    }
+
+    header h1{
+        display: none;
+    }
+
+    header h3{
+        width: 80%;
+    }
+
+    header .toggler{
+        width: 20%;
+        transform: scale(0.75);
+    }
+
+    main{
+        width: 100%;
+    }
+
+    main .access{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    header{
+        height: 15vh;
+    }
+
+    header h1{
+        display: none;
+    }
+
+    header h3{
+        width: 80%;
+    }
+
+    header .toggler{
+        width: 20%;
+        transform: scale(0.75);
+    }
+
+    main{
+        width: 100%;
+    }
+
+    main .access{
+        width: 45%;
+    }
+
+    aside{
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    header{
+        height: 20vh;
+    }
+
+    header h1{
+        font-size: 36px;
+    }
+
+    header .toggler{
+        width: 10%;
+        transform: scale(0.75);
+    }
+
+    main{
+        width: 70%;
+    }
+
+    main .access{
+        width: 48%;
+    }
+
+    aside{
+        width: 30%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1360px) {
+    
+
+    header h1{
+        font-size: 48px;
+    }
+
+    header .toggler{
+        width: 7%;
+        transform: scale(0.9);
+    }
+
+    main{
+        width: 75%;
+    }
+
+    main .access{
+        width: 30%;
+    }
+
+    aside{
+        width: 25%;
+        padding: 10px;
+    }
 }
